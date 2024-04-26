@@ -83,6 +83,7 @@ export default {
       this.list = [{ name: "Edgard", id: id++ }];
     },
     checkMove: function(e) {
+      console.log(e)
       window.console.log("Future index: " + e.draggedContext.futureIndex);
     }
   }
